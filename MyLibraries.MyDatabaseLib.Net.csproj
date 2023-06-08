@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0;net48</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>9.6.6.23</Version>
+    <PackageTags>.NET</PackageTags>
+    <Authors>Vladislav Rak</Authors>
+    <Product>MyDatabaseLib</Product>
+    <Description>A library for working with database</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>G:\Мій диск\Locker\Особисте\Important\Програмування\Мої бібліотеки\Класи бібліотек\MyLibraries.MyDatabaseLib.Net\MyLibraries.MyDatabaseLib.Net.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MyLibraries.MySystemLib.Net" Version="15.8.6.23" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>
