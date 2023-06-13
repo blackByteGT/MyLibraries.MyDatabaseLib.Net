@@ -33,6 +33,12 @@
             </summary>
             <param name="request">Текст запиту</param>
         </member>
+        <member name="M:MyLibraries.MyDatabaseLib.Classes.MyDatabase.EditStringFromDatabase(System.String@)">
+            <summary>
+            Відредагувати рядок з БД
+            </summary>
+            <param name="str">Поточний рядок</param>
+        </member>
         <member name="T:MyLibraries.MyDatabaseLib.Classes.MyTableDB">
             <summary>
             Клас для роботи з вибіркою із бази даних

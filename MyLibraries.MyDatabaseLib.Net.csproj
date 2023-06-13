@@ -3,11 +3,12 @@
   <PropertyGroup>
     <TargetFrameworks>net5.0;net48</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>9.6.6.23</Version>
+    <Version>10.14.6.23</Version>
     <PackageTags>.NET</PackageTags>
     <Authors>Vladislav Rak</Authors>
     <Product>MyDatabaseLib</Product>
     <Description>A library for working with database</Description>
+    <PackageProjectUrl>https://github.com/blackByteGT/MyLibraries.MyDatabaseLib.Net</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
