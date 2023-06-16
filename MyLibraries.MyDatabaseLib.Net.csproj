@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net5.0;net48</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>10.14.6.23</Version>
+    <Version>11.16.6.23</Version>
     <PackageTags>.NET</PackageTags>
     <Authors>Vladislav Rak</Authors>
     <Product>MyDatabaseLib</Product>

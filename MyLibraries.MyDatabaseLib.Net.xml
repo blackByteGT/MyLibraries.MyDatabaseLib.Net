@@ -127,12 +127,12 @@
         <member name="M:MyLibraries.MyDatabaseLib.Classes.MyTableDB.GetField(System.String@,System.String,System.String,System.String,System.String)">
             <summary>
             Отримати значення поля. 
-            select nameColumnGetValue from table where nameColumnCondition {symbolEquality} valueFieldCondition
+            Приклад SQL-запиту: select [nameColumnGetValue] from [table] where [nameColumnCondition] {symbolEquality} 'valueFieldCondition'
             </summary>
-            <param name="field">Поточне значення полів</param>
-            <param name="nameColumnCondition">Назва стовпця для пошуку</param>
-            <param name="nameColumnGetValue">Значення стовпця для пошуку</param>
-            <param name="valueFieldCondition">Назва стовпця для отримання потрібного значення</param>
+            <param name="field">Поточне значення</param>
+            <param name="nameColumnGetValue">Назва стовпця для отримання значення</param>
+            <param name="nameColumnCondition">Назва стовпця для пошуку значення</param>
+            <param name="valueFieldCondition">Значення поля стовпця-пошуку для отримання значення</param>
             <param name="symbolEquality">Дія</param>
         </member>
         <member name="M:MyLibraries.MyDatabaseLib.Classes.MyTableDB.GetFields(System.Collections.Generic.List{System.Collections.Generic.List{System.String}}@)">
@@ -140,15 +140,6 @@
             Отримати матрицю значень таблиці
             </summary>
             <param name="fields">Поточна матриця значень</param>
-        </member>
-        <member name="M:MyLibraries.MyDatabaseLib.Classes.MyTableDB.GetFields(MyLibraries.MyDatabaseLib.Classes.MyTableDB@,System.String)">
-            <summary>
-            В розробці. 
-            Необхідно виконати: відбір вибірки за умови 256р.
-            Отримати таблицю значень таблиці
-            </summary>
-            <param name="currentTable">Нова таблиця</param>
-            <param name="requst">Запит до таблиці. Наприклад: select column1, coulumn2 where column1 = 1</param>
         </member>
         <member name="M:MyLibraries.MyDatabaseLib.Classes.MyTableDB.GetNumberColumns(System.Int32@)">
             <summary>
@@ -250,6 +241,12 @@
             Оновити таблицю
             </summary>
             <param name="database">База даних</param>
+        </member>
+        <member name="M:MyLibraries.MyDatabaseLib.Classes.MyTableDB.IsEmpty">
+            <summary>
+            Перевірка на порожню таблицю
+            </summary>
+            <returns>true - таблиця порожня, false - таблиця не порожня</returns>
         </member>
     </members>
 </doc>
