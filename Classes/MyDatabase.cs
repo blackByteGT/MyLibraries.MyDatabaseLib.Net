@@ -44,7 +44,6 @@ namespace MyLibraries.MyDatabaseLib.Classes
                 #region Items
                 SqlCommand command = new SqlCommand(bodyRequest, connection);
                 SqlDataReader reader = command.ExecuteReader();
-                string currentValue = default;
                 int 
                     countReader = reader.FieldCount,
                     currentIndexLine = 0;
@@ -56,12 +55,8 @@ namespace MyLibraries.MyDatabaseLib.Classes
                 {
                     currentTable.AddLineToTable();
 
-                    for (int i = 0; i < countReader; i++)
-                    {
-                        currentValue = reader[i].ToString(); EditStringFromDatabase(ref currentValue);
-                        
-                        currentTable.SetFieldValueToTable(currentValue, i, currentIndexLine);
-                    }
+                    for (int i = 0; i < countReader; i++)                        
+                        currentTable.SetFieldValueToTable(reader[i].ToString(), i, currentIndexLine);
 
                     currentIndexLine++;
                 }
@@ -95,7 +90,7 @@ namespace MyLibraries.MyDatabaseLib.Classes
         /// Відредагувати рядок з БД
         /// </summary>
         /// <param name="str">Поточний рядок</param>
-        private void EditStringFromDatabase(ref string str) =>
+        public void EditStringFromDatabase(ref string str) =>
             MyString.Replace(ref str, new List<string>() { "\n", "\t", "\"" }, new List<string>() { "\n", "\t", "\"" });
         #endregion Other
         #endregion Functions

@@ -102,12 +102,12 @@ namespace MyLibraries.MyDatabaseLib.Classes
         }
         /// <summary>
         /// Отримати значення поля. 
-        /// select nameColumnGetValue from table where nameColumnCondition {symbolEquality} valueFieldCondition
+        /// Приклад SQL-запиту: select [nameColumnGetValue] from [table] where [nameColumnCondition] {symbolEquality} 'valueFieldCondition'
         /// </summary>
-        /// <param name="field">Поточне значення полів</param>
-        /// <param name="nameColumnCondition">Назва стовпця для пошуку</param>
-        /// <param name="nameColumnGetValue">Значення стовпця для пошуку</param>
-        /// <param name="valueFieldCondition">Назва стовпця для отримання потрібного значення</param>
+        /// <param name="field">Поточне значення</param>
+        /// <param name="nameColumnGetValue">Назва стовпця для отримання значення</param>
+        /// <param name="nameColumnCondition">Назва стовпця для пошуку значення</param>
+        /// <param name="valueFieldCondition">Значення поля стовпця-пошуку для отримання значення</param>
         /// <param name="symbolEquality">Дія</param>
         public void GetField(ref string field, string nameColumnGetValue, string nameColumnCondition, string valueFieldCondition, string symbolEquality = "==")
         {
@@ -148,79 +148,6 @@ namespace MyLibraries.MyDatabaseLib.Classes
         /// </summary>
         /// <param name="fields">Поточна матриця значень</param>
         public void GetFields(ref List<List<string>> fields) => fields = Fields;
-        /// <summary>
-        /// В розробці. 
-        /// Необхідно виконати: відбір вибірки за умови 256р.
-        /// Отримати таблицю значень таблиці
-        /// </summary>
-        /// <param name="currentTable">Нова таблиця</param>
-        /// <param name="requst">Запит до таблиці. Наприклад: select column1, coulumn2 where column1 = 1</param>
-        public void GetFields(ref MyTableDB currentTable, string requst)
-        {
-            int lengthRequst = requst.Length;
-            if (lengthRequst == 0) return;
-
-
-
-            string endStr = "\0";
-            requst += requst[lengthRequst - 1].ToString() == endStr ? "" : endStr;
-
-            const string select = "select", where = "where", charFormat = "X",
-                formatRequest1 = select + charFormat,
-                formatRequest2 = formatRequest1 + where;
-
-            bool
-                checkFormat1 = !MyString.CheckForFormatInString(requst, formatRequest1, charFormat),
-                checkFormat2 = !MyString.CheckForFormatInString(requst, formatRequest2, charFormat);
-
-            if (checkFormat1 && checkFormat2) return;
-
-
-
-            string columnsFromRequest = ""; MyString.GetSubstring(ref columnsFromRequest, requst, select, where);
-            if (columnsFromRequest.Length == 0) return;
-            MyString.Remove(ref columnsFromRequest, " ");
-
-            MyTableDB newTable = new MyTableDB();
-            List<string> columnsNewTable = new List<string>(); MyString.GetSubstrings(ref columnsNewTable, columnsFromRequest, new List<string>() { ",", endStr });
-            int countColumnsNewTable = Columns.Count;
-
-            if (columnsNewTable[0] == "*") columnsNewTable = Columns;
-            else
-            {
-                countColumnsNewTable = columnsNewTable.Count;
-                if (countColumnsNewTable == 0 || MyList.CheckForIllegalValueInList(columnsNewTable, Columns)) return;
-            }
-
-            newTable.Columns = columnsNewTable;
-
-            int countFields = Fields.Count;
-            string currentStr = "";
-            List<List<string>> fieldsNewTable = new List<List<string>>();
-
-            if (!checkFormat1)
-            {
-                for (int i = 0; i < countFields; i++)
-                {
-                    fieldsNewTable.Add(new List<string>());
-
-                    for (int j = 0; j < countColumnsNewTable; j++)
-                    {
-                        GetField(ref currentStr, columnsNewTable[j], i);
-                        fieldsNewTable[i].Add(currentStr);
-                    }
-                }
-
-                newTable.Fields = fieldsNewTable;
-            }
-            else
-            {
-                // вибірка з умовою
-            }
-
-            currentTable = newTable;
-
-        }
         /// <summary>
         /// Отримати кількість стовпців таблиці
         /// </summary>
@@ -522,6 +449,12 @@ namespace MyLibraries.MyDatabaseLib.Classes
 
             Fields = newTable.Fields;
         }
+        /// <summary>
+        /// Перевірка на порожню таблицю
+        /// </summary>
+        /// <returns>true - таблиця порожня, false - таблиця не порожня</returns>
+        public bool IsEmpty() 
+        { return !(Fields.Count > 0); }
         #endregion Other
         #endregion Functions
     }
