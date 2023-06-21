@@ -90,8 +90,11 @@ namespace MyLibraries.MyDatabaseLib.Classes
         /// Відредагувати рядок з БД
         /// </summary>
         /// <param name="str">Поточний рядок</param>
-        public void EditStringFromDatabase(ref string str) =>
-            MyString.Replace(ref str, new List<string>() { "\n", "\t", "\"" }, new List<string>() { "\n", "\t", "\"" });
+        static public void EditStringFromDatabase(ref string str) =>
+            MyString.Replace(
+                ref str,
+                new List<string>() { @"\n", @"\t", @"\" + "\"" },
+                new List<string>() { "\n", "\t", "\"" });
         #endregion Other
         #endregion Functions
     }
