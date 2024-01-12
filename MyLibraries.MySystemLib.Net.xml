@@ -1,0 +1,1674 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyLibraries.MySystemLib.Net</name>
+    </assembly>
+    <members>
+        <member name="T:MyLibraries.MySystemLib.Classes.MyArray">
+            <summary>
+            Масив
+            </summary>
+            <remarks>
+                <para>Файл класу: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyArray.cs"/></para>
+                <para>Приклади застосування: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyArray"/></para>
+            </remarks>
+            
+            <translation xml:lang="en">
+                <summary>
+                Array
+                </summary>
+                <remarks>
+                    <para>File code: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyArray.cs"/></para>
+                    <para>Application examples: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyArray"/></para>
+                </remarks>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyArray.Add``1(``0[]@,``0,System.Int32)">
+            <summary>
+            Добавити значення в масив
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyArray/Add-of-value.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="array">Поточний масив</param>
+            <param name="newValue">Нове значення</param>
+            <param name="index">Індекс нового значення. Якщо менше за 0 або більше за кількість значень в списку - добавляється в кінець</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Add values to the array
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyArray/Add-of-value.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="array">Current array</param>
+                <param name="newValue">New value</param>
+                <param name="index">The index of the new value. If it is less than 0 or more than the number of values in the list, it is added to the end</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyArray.Add``1(``0[]@,``0[],System.Int32)">
+            <summary>
+            Добавити в масив значення з іншого масиву
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyArray/Add-array-of-values.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="array">Поточний масив</param>
+            <param name="arrayAdd">Додатковий масив</param>
+            <param name="index">Індекс нового значення. Якщо менше за 0 або більше за кількість значень в списку - добавляється в кінець</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Add values from another array to the array
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyArray/Add-array-of-values.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="array">Current array</param>
+                <param name="arrayAdd">Additional array</param>
+                <param name="index">The index of the new value. If it is less than 0 or more than the number of values in the list, it is added to the end</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyArray.IsEmpty``1(``0[])">
+            <summary>
+            Перевірка на порожній масив
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyArray/Is-empty.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="array">Масив</param>
+            <returns>true - масив порожній, false - масив не порожній</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Checking for an empty array
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyArray/Is-empty.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="array">Array</param>
+                <returns>true - the array is empty, false - the array is not empty</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyArray.IsNull``1(``0[])">
+            <summary>
+            Перевірити масив на null
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyArray/Is-null.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="array">Масив</param>
+            <returns>true - масив є null, false - масив не є null</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check the array for null
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyArray/Is-null.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="array">Array</param>
+                <returns>true - the array is null, false - the array is not null</returns>
+            </translation>
+        </member>
+        <member name="T:MyLibraries.MySystemLib.Classes.MyChar">
+            <summary>
+            Символ
+            </summary>
+            <remarks>
+                <para>Файл класу: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyChar.cs"/></para>
+                <para>Приклади застосування: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyChar"/></para>
+            </remarks>
+            
+            <translation xml:lang="en">
+                <summary>
+                Symbol
+                </summary>
+                <remarks>
+                    <para>File code: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyChar.cs"/></para>
+                    <para>Application examples: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyChar"/></para>
+                </remarks>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyChar.CheckSymbol(System.Char,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Перевірити символ
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyChar/Check-symbol.cs"/></remarks>
+            <param name="symbol">Поточний символ</param>
+            <param name="checkByNumbers">Перевірити по числам</param>
+            <param name="checkByEnglishLowerLetters">Перевірити по англійським літерам нижнього регістру</param>
+            <param name="checkByEnglishUpperLetters">Перевірити по англійським літерам верхнього регістру</param>
+            <returns>true - символ входить у задані символи, false - символ не входить у задані символи</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check symbol
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyChar/Check-symbol.cs"/></remarks>
+                <param name="symbol">Current symbol</param>
+                <param name="checkByNumbers">Check by numbers</param>
+                <param name="checkByEnglishLowerLetters">Check for lowercase English letters</param>
+                <param name="checkByEnglishUpperLetters">Check for uppercase English letters</param>
+                <returns>true - the symbol is included in the specified symbols, false - the symbol is not included in the specified symbols</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyChar.CheckSymbol(System.Char,System.Boolean,System.Boolean)">
+            <summary>
+            Перевірити символ
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyChar/Check-symbol.cs"/></remarks>
+            <param name="symbol">Поточний символ</param>
+            <param name="checkByNumbers">Перевірити по числам</param>
+            <param name="checkByEnglishLetters">Перевірити по англійським літерам</param>
+            <returns>true - символ входить у задані символи, false - символ не входить у задані символи</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check symbol
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyChar/Check-symbol.cs"/></remarks>
+                <param name="symbol">Current symbol</param>
+                <param name="checkByNumbers">Check by numbers</param>
+                <param name="checkByEnglishLetters">Check by English letters</param>
+                <returns>true - the symbol is included in the specified symbols, false - the symbol is not included in the specified symbols</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyChar.CheckByNumbers(System.Char)">
+            <summary>
+            Перевірити символ по числам
+            </summary>
+            <param name="symbol">Поточний символ</param>
+            <returns>true - поточний символ це число, false - поточний символ це не число</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check the symbol by numbers
+                </summary>
+                <param name="symbol">Current symbol</param>
+                <returns>true - the current symbol is a number, false - the current symbol is not a number</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyChar.CheckByEnglishLetters(System.Char)">
+            <summary>
+            Перевірити символ по англійським літерам
+            </summary>
+            <param name="symbol">Поточний символ</param>
+            <returns>true - поточний символ це англійська літера, false - поточний символ це не англійська літера</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check the symbol by English letters
+                </summary>
+                <param name="symbol">Current symbol</param>
+                <returns>true - the current symbol is an English letter, false - the current symbol is not an English letter</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyChar.CheckByEnglishLowercaseLetters(System.Char)">
+            <summary>
+            Перевірити символ по малим англійським літерам
+            </summary>
+            <param name="symbol">Поточний символ</param>
+            <returns>true - поточний символ це мала англійська літера, false - поточний символ це не мала англійська літера</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check the symbol by lowercase English letters
+                </summary>
+                <param name="symbol">Current symbol</param>
+                <returns>true - the current symbol is a lowercase English letter, false - the current symbol is not a lowercase English letter</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyChar.CheckByEnglishUppercaseLetters(System.Char)">
+            <summary>
+            Перевірити символ по великим англійським літерам
+            </summary>
+            <param name="symbol">Поточний символ</param>
+            <returns>true - поточний символ це велика англійська літера, false - поточний символ це не велика англійська літера</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check the symbol against uppercase English letters
+                </summary>
+                <param name="symbol">Current symbol</param>
+                <returns>true - the current symbol is an uppercase English letter, false - the current symbol is not an uppercase English letter</returns>
+            </translation>
+        </member>
+        <member name="T:MyLibraries.MySystemLib.Classes.MyConvert">
+            <summary>
+            Конвектор
+            </summary> 
+            <remarks>
+                <para>Файл класу: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyConvert.cs"/></para>
+                <para>Приклади застосування: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyConvert"/></para>
+            </remarks>
+            
+            <translation xml:lang="en">
+                <summary>
+                Convector
+                </summary>
+                <remarks>
+                    <para>File code: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyConvert.cs"/></para>
+                    <para>Application examples: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyConvert"/></para>
+                </remarks>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyConvert.ConvertToArrayByte(System.Byte[]@,System.IO.Stream)">
+            <summary>
+            Перетворити у масив байтів
+            </summary>
+            <param name="arrayByte">Поточний масив байтів</param>
+            <param name="stream">Потік даних</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Convert to byte array
+                </summary>
+                <param name="arrayByte">The current byte array</param>
+                <param name="stream">Data stream</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyConvert.ConvertToStream(System.IO.Stream@,System.Byte[])">
+            <summary>
+            Перетворити у потік даних
+            </summary>
+            <param name="stream">Поточний потік даних</param>
+            <param name="arrayByte">Масив байтів</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Convert to data stream
+                </summary>
+                <param name="stream">Current data stream</param>
+                <param name="arrayByte">Byte array</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyConvert.ConvertToObject``1(System.Collections.Generic.List{System.Object}@,System.Collections.Generic.List{``0})">
+            <summary>
+            Перетворити список struct на список object
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="listObjects">Список object</param>
+            <param name="listStructs">Список struct</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Convert a struct list into an object list
+                </summary>
+                <typeparam name="T"></typeparam>
+                <param name="listObjects">Object list</param>
+                <param name="listStructs">struct list</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyConvert.ConvertToStruct``1(``0@,System.Object)">
+            <summary>
+            Перетворити у struct
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value">Поточне значення типу struct</param>
+            <param name="obj">Об'єкт класу object</param>
+            <returns>true - вдалося перетворити, false - не вдалося перетворити</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Convert to struct
+                </summary>
+                <typeparam name="T"></typeparam>
+                <param name="value">Current value of type struct</param>
+                <param name="obj">An object of the object class</param>
+                <returns>true - conversion succeeded, false - conversion failed</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyConvert.ConvertToStruct``1(System.Collections.Generic.List{``0}@,System.Collections.Generic.List{System.Object})">
+            <summary>
+            Перетворити список object на список struct
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="listValues">Поточний список значень типу struct</param>
+            <param name="listObjects">Список об'єктів object</param>
+            <returns>true - вдалося перетворити, false - не вдалося перетворити</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Convert the object list to the struct list
+                </summary>
+                <typeparam name="T"></typeparam>
+                <param name="listValues">The current list of values of type struct</param>
+                <param name="listObjects">List of objects object</param>
+                <returns>true - conversion succeeded, false - conversion failed</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyConvert.ConvertToDecimal(System.Decimal@,System.String,System.Collections.Generic.List{System.Char})">
+            <summary>
+            Перетворити рядок у число decimal
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyConvert/Convert-to-decimal.cs"/></remarks>
+            <param name="number">Поточне число</param>
+            <param name="str">Рядок</param>
+            <param name="listSeparator">Список розподілювачів</param>
+            <returns>true - вдалося перетворити, false - вдалося перетворити</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Convert a string to a decimal number
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyConvert/Convert-to-decimal.cs"/></remarks>
+                <param name="number">The current number</param>
+                <param name="str">String</param>
+                <param name="listSeparator">List of distributors</param>
+                <returns>true - successful conversion, false - successful conversion</returns>
+            </translation>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MyLibraries.MySystemLib.Classes.MyConvert.ConvertToDecimal(System.Decimal@,System.String)" -->
+        <member name="T:MyLibraries.MySystemLib.Classes.MyDecimal">
+            <summary>
+            Десяткове число з плаваючою комою
+            </summary>
+            <remarks>
+                <para>Файл класу: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyDecimal.cs"/></para>
+                <para>Приклади застосування: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyDecimal"/></para>
+            </remarks>
+            
+            <translation xml:lang="en">
+                <summary>
+                A floating point decimal number
+                </summary>
+                <remarks>
+                    <para>File code: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyDecimal.cs"/></para>
+                    <para>Application examples: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyDecimal"/></para>
+                </remarks>
+            </translation>
+        </member>
+        <member name="F:MyLibraries.MySystemLib.Classes.MyDecimal.DefaultListSeparators">
+            <summary>
+            Список розподілювачів за замовчуванням
+            </summary>
+            
+            <translation xml:lang="en">
+                <summary>
+                List of default distributors
+                </summary>
+            </translation> 
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.CheckPrecision(System.Decimal,System.Decimal)">
+            <summary>
+            Перевірити точність числа
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Check-precision.cs"/></remarks>
+            <param name="checkNumber">Число для перевірки</param>
+            <param name="referenceNumber">Еталонне число</param>
+            <returns>true - число коректне, false - число некоректне</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check the precision of the number
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Check-precision.cs"/></remarks>
+                <param name="checkNumber">Number to check</param>
+                <param name="referenceNumber">Reference number</param>
+                <returns>true - the number is correct, false - the number is incorrect</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.SetPrecision(System.Decimal@,System.Decimal)">
+            <summary>
+            Встановити точність
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Set-precision.cs"/></remarks>
+            <param name="number">Поточне число</param>
+            <param name="referenceNumber">Еталонне число</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Set precision
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Set-precision.cs"/></remarks>
+                <param name="number">The current number</param>
+                <param name="referenceNumber">Reference number</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.SetPrecision(System.Decimal@,System.Int32)">
+            <summary>
+            Встановити точність
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Set-precision.cs"/></remarks>
+            <param name="number">Поточне число</param>
+            <param name="precision">Точність після коми</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Set precision
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Set-precision.cs"/></remarks>
+                <param name="number">The current number</param>
+                <param name="precision">Accuracy after the comma</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.GetPrecision(System.Int32@,System.String,System.Collections.Generic.List{System.Char})">
+            <summary>
+            Отримати точність числа
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Get-pecision.cs"/></remarks>
+            <param name="precision">Поточна точність</param>
+            <param name="numberToString">Число у вигляді рядка</param>
+            <param name="listSeparators">Список розділювачів. Якщо список порожній береться за замовчуванням - <see cref="F:MyLibraries.MySystemLib.Classes.MyDecimal.DefaultListSeparators"/></param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get the precision of a number
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Get-pecision.cs"/></remarks>
+                <param name="precision">Current precision</param>
+                <param name="numberToString">Number as a string</param>
+                <param name="listSeparators">List of delimiters. If the list is empty, the default is taken - <see cref="F:MyLibraries.MySystemLib.Classes.MyDecimal.DefaultListSeparators"/></param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.GetPrecision(System.Int32@,System.Decimal)">
+            <summary>
+            Отримати точність числа
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Get-pecision.cs"/></remarks>
+            <param name="precision">Поточна точність</param>
+            <param name="number">Число</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get the precision of a number
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Get-pecision.cs"/></remarks>
+            <param name="precision">Current precision</param>
+            <param name="number">Number</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.GetDigit(System.Int32@,System.String,System.Collections.Generic.List{System.Char})">
+            <summary>
+            Отримати розрядність числа
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Get-digit.cs"/></remarks>
+            <param name="digit">Поточна розрядність</param>
+            <param name="numberToString">Число у вигляді рядка</param>
+            <param name="listSeparators">Список розділювачів. Якщо список порожній береться за замовчуванням - <seealso cref="F:MyLibraries.MySystemLib.Classes.MyDecimal.DefaultListSeparators"/></param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get the digit of a number
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Get-digit.cs"/></remarks>
+                <param name="digit">Current digit</param>
+                <param name="numberToString">Number as a string</param>
+                <param name="listSeparators">List of delimiters. If the list is empty, the default is taken - <seealso cref="F:MyLibraries.MySystemLib.Classes.MyDecimal.DefaultListSeparators"/></param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.GetDigit(System.Int32@,System.Decimal)">
+            <summary>
+            Отримати розрядність числа
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Get-digit.cs"/></remarks>
+            <param name="digit">Поточна розрядність</param>
+            <param name="number">Число</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get the digit of a number
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Get-digit.cs"/></remarks>
+                <param name="digit">Current digit</param>
+                <param name="number">Numeric</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.TakeFractionalPart(System.Decimal@)">
+            <summary>
+            Забрати дробову частину десяткового дробу
+            </summary>
+            <remarks>: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Take-fractional-part.cs"/></remarks>
+            <param name="number">Поточне число</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Take the fractional part of the decimal fraction
+                </summary>
+                <param name="number">The current number</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyDecimal.TakeExtraZerosFractionalPart(System.Decimal@)">
+            <summary>
+            Забрати зайві нулі з дробової частини числа
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Take-extra-zeros-fractional-part.cs"/></remarks>
+            <param name="number">Поточне число</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove extra zeros from the fractional part of the number
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyDecimal/Take-extra-zeros-fractional-part.cs"/></remarks>
+                <param name="number">The current number</param>
+            </translation>
+        </member>
+        <member name="T:MyLibraries.MySystemLib.Classes.MyException">
+            <summary>
+            Виключення
+            </summary>
+            <remarks>
+                <para>Файл класу: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyException.cs"/></para>
+                <para>Приклади застосування: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyException"/></para>
+            </remarks>
+            
+            <translation xml:lang="en">
+                <summary>
+                Exception
+                </summary>
+                <remarks>
+                    <para>File code: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyException.cs"/></para>
+                    <para>Application examples: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyException"/></para>
+                </remarks>
+            </translation>
+        </member>
+        <member name="P:MyLibraries.MySystemLib.Classes.MyException.MemberName">
+            <summary>
+            Назва класу, де відбулося виключення
+            </summary>
+            
+            <translation xml:lang="en">
+                <summary>
+                The name of the class where the exception occurred
+                </summary>
+            </translation>
+        </member>
+        <member name="P:MyLibraries.MySystemLib.Classes.MyException.NumberLine">
+            <summary>
+            Номер рядка коду, де відбулося виключення
+            </summary>
+            
+            <translation xml:lang="en">
+                <summary>
+                The line number of the code where the exception occurred
+                </summary>
+            </translation>
+        </member>
+        <member name="P:MyLibraries.MySystemLib.Classes.MyException.FilePath">
+            <summary>
+            Шлях до файлу, у якому відбулося виключення
+            </summary>
+            
+            <translation xml:lang="en">
+                <summary>
+                The path to the file where the exception occurred
+                </summary>
+            </translation>
+        </member>
+        <member name="P:MyLibraries.MySystemLib.Classes.MyException.ExceptionInfo">
+            <summary>
+            Додаткова інформація виключення
+            </summary>
+            
+            <translation xml:lang="en">
+                <summary>
+                Additional exclusion information
+                </summary>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyException.#ctor(System.Boolean,System.Exception,System.String,System.String,System.Int32)">
+            <summary>
+            Внести додаткову інформацію про виключення 
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyException/Main-example.cs"/></remarks>
+            <param name="getFullFilePath">true - отримати повний шлях filePath, false - отримати скорочений шлях filePat</param>
+            <param name="exceptionInfo">Додаткова інформація виключення</param>
+            <param name="sourceMemberName">default</param>
+            <param name="sourceFilePath">default</param>
+            <param name="sourceLineNumber">default</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Enter additional information about the exception
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyException/Main-example.cs"/></remarks>
+                <param name="getFullFilePath">true - get the full filePath path, false - get the shortened filePat path</param>
+                <param name="exceptionInfo">Additional exclusion information</param>
+                <param name="sourceMemberName">default</param>
+                <param name="sourceFilePath">default</param>
+                <param name="sourceLineNumber">default</param>
+            </translation>
+        </member>
+        <member name="T:MyLibraries.MySystemLib.Classes.MyList">
+            <summary>
+            Список
+            </summary>
+            <remarks>
+                <para>Файл класу: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyList.cs"/></para>
+                <para>Приклади застосування: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyList"/></para>
+            </remarks>
+            
+            <translation xml:lang="en">
+                <summary>
+                List
+                </summary>
+                <remarks>
+                    <para>File code: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyList.cs"/></para>
+                    <para>Application examples: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyList"/></para>
+                </remarks>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Add``1(System.Collections.Generic.List{``0}@,``0,System.Int32)">
+            <summary>
+            Добавити значення в список
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Add-of-values.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            <param name="newValue">Нове значення</param>
+            <param name="index">Індекс нового значення. Якщо менше за 0 або більше за кількість значень в списку - добавляється в кінець</param>
+            
+            <translation xml:lang="en"> 
+                <summary>
+                Add value to list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Add-of-values.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+                <param name="newValue">New value</param>
+                <param name="index">The index of the new value. If it is less than 0 or more than the number of values in the list, it is added to the end</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Add``1(System.Collections.Generic.List{``0}@,System.Collections.Generic.List{``0},System.Int32)">
+            <summary>
+            Добавити в список значення з іншого списку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Add-list-of-values.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            <param name="addList">Додатковий список</param>
+            <param name="index">Індекс додавання</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Add values from another list to the list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Add-list-of-values.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+                <param name="addList">Additional list</param>
+                <param name="index">Add index</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Add``1(System.Collections.Generic.List{``0}@,System.Collections.Generic.List{System.Collections.Generic.List{``0}},System.Int32)">
+            <summary>
+            Добавити список списків в список
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Add-list-lists-of-values.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            <param name="addArrayList">Список списків</param>
+            <param name="index">Індекс додавання</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Add a list of lists to a list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Add-list-lists-of-values.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+                <param name="addArrayList">List of lists</param>
+                <param name="index">Add index</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Replace``1(System.Collections.Generic.List{``0}@,``0,System.Int32)">
+            <summary>
+            Замінити значення в списку за індексом
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Replace.cs"/></remarks>
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            <param name="newValue">Нове значення</param>
+            <param name="index">Індекс заміни. Якщо значення занадто велике - дія не виконується</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Replace the values in the list by index
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Replace.cs"/></remarks>
+                </summary>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+                <param name="newValue">New value</param>
+                <param name="index">Replacement index. If the value is too large, the action is not performed</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Remove``1(System.Collections.Generic.List{``0}@,System.Int32,System.Int32)">
+            <summary>
+            Видалити елементи з списку за вказаними індексами
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-by-indexes.cs"/></remarks>
+            </summary>
+            <param name="list">Поточний список</param>
+            <param name="primaryIndex">Початковий індекс</param>
+            <param name="finalIndex">Кінцевий індекс. Якщо this = 0 => finalIndex = primaryIndex</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove elements from list at the specified indexes
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-by-indexes.cs"/></remarks>
+                </summary>
+                <param name="list">Current list</param>
+                <param name="primaryIndex">Initial index</param>
+                <param name="finalIndex">Final index. If this = 0 => finalIndex = primaryIndex</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Remove``1(System.Collections.Generic.List{``0}@,System.Collections.Generic.List{``0})">
+            <summary>
+            Видалити елементи списку з списку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-by-list.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="listValues">Поточний список значень</param>
+            <param name="listRemove">Список для видалення</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove list items from the list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-by-list.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="listValues">Current list of values</param>
+                <param name="listRemove">List to delete</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Remove``1(System.Collections.Generic.List{``0}@,System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Видалити елементи списку з перерахування
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-by-enumerable.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="listValues">Поточний список значень</param>
+            <param name="enumerableRemove">Перерахування для видалення</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove list items from the enumeration
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-by-enumerable.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="listValues">Current list of values</param>
+                <param name="enumerableRemove">List to delete</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Remove``1(System.Collections.Generic.List{``0}@,System.Func{``0,System.Boolean})">
+            <summary>
+            Видалити елементи списку які відповідають умові
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-by-condition.cs"/>></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            <param name="keySelector">Ключ для відбору елементів видалення</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove list items that match the condition
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-by-condition.cs"/>></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+                <param name="keySelector">Key for select items to delete</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.RemoveDuplicates``1(System.Collections.Generic.List{``0}@)">
+            <summary>
+            Видалити дублікати з списку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-duplicates.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove duplicates from the list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Remove-duplicates.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.GetSublist``1(System.Collections.Generic.List{``0}@,System.Collections.Generic.List{``0},System.Int32,System.Int32)">
+            <summary>
+            Отримати підсписок з списку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Get-sublist.cs"/></remarks>
+            <param name="sublist">Поточний підсписок</param>
+            <param name="list">Поточний список</param>
+            <param name="index">Початковий індекс</param>
+            <param name="count">Кількість елементів підсписку. Якщо count = 0, тоді зчитування елементів з list буде відбуватися до кінця</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a sublist from a list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Get-sublist.cs"/></remarks>
+                <param name="sublist">Current sublist</param>
+                <param name="list">Current list</param>
+                <param name="index">Initial index</param>
+                <param name="count">Number of sublist elements. If count = 0, then the reading of elements from the list will take place until the end</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.GetSublist``1(System.Collections.Generic.List{``0}@,System.Collections.Generic.List{``0},System.Func{``0,System.Boolean})">
+            <summary>
+            Отримати підсписок з списку за умовою
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Get-sublist-by-condition.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="sublist">Поточний підсписок</param>
+            <param name="list">Поточний список</param>
+            <param name="keySelector">Умова отримання</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a sublist from a list by condition
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Get-sublist-by-condition.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="sublist">Current sublist</param>
+                <param name="list">Current list</param>
+                <param name="keySelector">Condition of receipt</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.GetIndex``1(System.Int32@,System.Collections.Generic.List{``0},``0)">
+            <summary>
+            Отримати індекс значення в списку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Get-index.cs"/></remarks>
+            <param name="index">Індекс значення</param>
+            <param name="list">Список</param>
+            <param name="value">Значення</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get the index of the value in the list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Get-index.cs"/></remarks>
+                <param name="index">Index value</param>
+                <param name="list">List</param>
+                <param name="value">Value</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.GetIndex``1(System.Int32@,System.Collections.Generic.List{``0},System.Func{``0,System.Boolean})">
+            <summary>
+            Отримати індекс значення в списку за умовою
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Get-index-by-condition.cs"/></remarks>
+            <param name="index">Індекс значення</param>
+            <param name="list">Список</param>
+            <param name="keySelector">Умова отримання</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get the index of the value in the list by condition
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Get-index-by-condition.cs"/></remarks>
+                <param name="index">Index value</param>
+                <param name="list">List</param>
+                <param name="value">Value</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.GetEnglishLowercaseLetters(System.Collections.Generic.List{System.Char}@)">
+            <summary>
+            Отримати список англійських літер нижнього регістру
+            </summary>
+            <param name="englishLowercaseLetters">Поточний список</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a list of lowercase English letters
+                </summary>
+                <param name="englishLowercaseLetters">Current list</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.GetEnglishUppercaseLetters(System.Collections.Generic.List{System.Char}@)">
+            <summary>
+            Отримати список англійських літер верхнього регістру регістру
+            </summary>
+            <param name="englishUppercaseLetters">Поточний список</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a list of upper case English letters
+                </summary>
+                <param name="englishUppercaseLetters">Current list</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.GetEnglishLetters(System.Collections.Generic.List{System.Char}@)">
+            <summary>
+            Отримати список всіх англійських літер
+            </summary>
+            <param name="englishLetters">Поточний список</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a list of all English letters
+                </summary>
+            <param name="englishLetters">Current list</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.GetNumbers(System.Collections.Generic.List{System.Char}@)">
+            <summary>
+            Отримати список цифр 0-9
+            </summary>
+            <param name="numbers">Поточний список</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a list of numbers 0-9
+                </summary>
+            <param name="numbers">Current list</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.IsEntry``1(System.Collections.Generic.List{``0},System.Int32)">
+            <summary>
+            Перевірити на входження індексу у список
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-entry-index.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            <param name="index">Індекс</param>
+            <returns>true - індекс входить у список, false - індекс не входить у список</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check whether the index is in the list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-entry-index.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+                <param name="index">Index</param>
+                <returns>true - the index is included in the list, false - the index is not included in the list</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.IsEntry``1(System.Collections.Generic.List{``0},``0)">
+            <summary>
+            Перевірити на входження значення в список 
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-entry-value.cs"/></remarks>
+            <param name="list">Список</param>
+            <param name="value">Значення</param>
+            <returns>true - значення знайдено в списку, false - значення не знайдено в списку</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check if the value is in the list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-entry-value.cs"/></remarks>
+                <param name="list">List</param>
+                <param name="value">Value</param>
+                <returns>true - the value is found in the list, false - the value is not found in the list</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.IsEntry``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0})">
+            <summary>
+            Перевірити на входження списку значень в список
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-entry-from-list.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="listValues">Поточний список значень</param>
+            <param name="listValuesForCheck">Список значень для перевірки</param>
+            <returns>true - значення знайдено в списку, false - значення не знайдено в списку</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check whether the list of values is included in the list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-entry-from-list.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="listValues">Current list of values</param>
+                <param name="listValuesForCheck">List of values to check</param>
+                <returns>true - the value is found in the list, false - the value is not found in the list</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.IsNull``1(System.Collections.Generic.List{``0})">
+            <summary>
+            Перевірити список на null
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-null.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Список</param>
+            <returns>true - список є null, false - список не є null</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check the list for null
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-null.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">List</param>
+                <returns>true - the list is null, false - the list is not null</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.IsEmpty``1(System.Collections.Generic.List{``0})">
+            <summary>
+            Перевірка на порожній список
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-empty.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Список</param>
+            <returns>true - список порожній, false - список не порожній</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Checking for an empty list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Is-empty.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">List</param>
+                <returns>true - the list is empty, false - the list is not empty</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Sort``2(System.Collections.Generic.List{``0}@,System.Func{``0,``1},System.Boolean)">
+            <summary>
+            Відсортувати
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Sort.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TKey">Ключ для сортування</typeparam>
+            <param name="list">Список значень</param>
+            <param name="keySelector">Ключ для сортування</param>
+            <param name="byGrowth">true - сортувати по зростанню, false - сортувати по спаданню</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Sort
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Sort.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <typeparam name="TKey">Sort key</typeparam>
+                <param name="list">List of values</param>
+                <param name="keySelector">Sort key</param>
+                <param name="byGrowth">true - sort in ascending order, false - sort in descending order</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Move``1(System.Collections.Generic.List{``0}@,System.Int32,System.Int32)">
+            <summary>
+            Перемістити елементи списку 
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Move.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            <param name="indexItem1">Індекс першого елемента</param>
+            <param name="indexItem2">Індекс другого елемента</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Move list items
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Move.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+                <param name="indexItem1">The index of the first element</param>
+                <param name="indexItem2">The index of the second element</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyList.Shuffle``1(System.Collections.Generic.List{``0}@)">
+            <summary>
+            Перемішати елементи списку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Shuffle.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="list">Поточний список</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Shuffle the list items
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyList/Shuffle.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="list">Current list</param>
+            </translation>
+        </member>
+        <member name="T:MyLibraries.MySystemLib.Classes.MyRandom">
+            <summary>
+            Випадковий
+            </summary>
+            <remarks>
+                <para>Файл класу: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyRandom.cs"/></para>
+                <para>Приклади застосування: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyRandom"/></para>
+            </remarks>
+            
+            <translation xml:lang="en">
+                <summary>
+                Random
+                </summary>
+                <remarks>
+                    <para>File code: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyRandom.cs"/></para>
+                    <para>Application examples: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyRandom"/></para>
+                </remarks>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyRandom.Next(System.Int32@,System.Int32,System.Int32)">
+            <summary>
+            Отримати випадкове число
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyRandom/Get-random-int.cs"/></remarks>
+            <param name="number">Поточне число</param>
+            <param name="minNumber">Мінімальне число</param>
+            <param name="maxNumber">Маскимальне число</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a random number
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyRandom/Get-random-int.cs"/></remarks>
+                <param name="number">The current number</param>
+                <param name="minNumber">Minimum number</param>
+                <param name="maxNumber">The maximum number</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyRandom.Next(System.String@,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.List{System.Char})">
+            <summary>
+            Отримати випадковий рядок
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyRandom/Get-random-string.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="lengthStr">Довжина випадкового рядка</param>
+            <param name="enterNumber">Вмістити числа</param>
+            <param name="enterLowLatter">Вмістити маленькі літери</param>
+            <param name="enterCapLatter">Вмістити великі літери</param>
+            <param name="listAddChars">Список додаткових символів</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a random string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyRandom/Get-random-string.cs"/></remarks>
+                <param name="str">The current line</param>
+                <param name="lengthStr">The length of the random string</param>
+                <param name="enterNumber">Enter numbers</param>
+                <param name="enterLowLatter">Enter lowercase letters</param>
+                <param name="enterCapLatter">Enter capital letters</param>
+                <param name="listAddChars">List of additional symbols</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyRandom.Next(System.String@,System.Int32,System.Collections.Generic.List{System.Char})">
+            <summary>
+            Отримати випадковий рядок
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyRandom/Get-random-string.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="lengthStr">Довжина випадкового рядка</param>
+            <param name="listAllowedChars">Список дозволених символів</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a random string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyRandom/Get-random-string.cs"/></remarks>
+                <param name="str">The current line</param>
+                <param name="lengthStr">The length of the random string</param>
+                <param name="listAllowedChars">List of allowed characters</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyRandom.Next``1(``0@,System.Collections.Generic.List{``0})">
+            <summary>
+            Отримати випадкове значення з списку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyRandom/Get-random-value-of-list.cs"/></remarks>
+            <typeparam name="T"></typeparam>
+            <param name="value">Поточне значення</param>
+            <param name="listValue">Список значень</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a random value from a list
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyRandom/Get-random-value-of-list.cs"/></remarks>
+                <typeparam name="T"></typeparam>
+                <param name="value">Current value</param>
+                <param name="listValue">List of values</param>
+            </translation>
+        </member>
+        <member name="T:MyLibraries.MySystemLib.Classes.MyString">
+            <summary>
+            Рядок
+            </summary>
+            <remarks>
+                <para>Файл класу: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyString.cs"/></para>
+                <para>Приклади застосування: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyString"/></para>
+            </remarks>
+            
+            <translation xml:lang="en">
+                <summary>
+                String
+                </summary>
+                <remarks>
+                    <para>File code: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/blob/main/Classes/MyString.cs"/></para>
+                    <para>Application examples: <seealso href="https://github.com/blackByteGT/MyLibraries.MySystemLib.Net/tree/main/Examples/MyString"/></para>
+                </remarks>
+            </translation>
+        </member>
+        <member name="F:MyLibraries.MySystemLib.Classes.MyString.SymbolForFormat">
+            <summary>
+            Символи для роботи з форматом рядка
+            </summary>
+            
+            <translation xml:lang="en">
+                <summary>
+                Symbols for working with string format
+                </summary>
+            </translation>
+        </member>
+        <member name="F:MyLibraries.MySystemLib.Classes.MyString.FormatByTelephoneNumber">
+            <summary>
+            Формат номера телефону
+            </summary>
+            
+            <translation xml:lang="en">
+                <summary>
+                Format for phone number
+                </summary>
+            </translation>
+        </member>
+        <member name="F:MyLibraries.MySystemLib.Classes.MyString.FormatByNumberCard">
+            <summary>
+            Формат номера банківської карти
+            </summary>
+            
+            <translation xml:lang="en">
+                <summary>
+                Bank card number format
+                </summary>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.SetLength(System.String@,System.Int32,System.Char)">
+            <summary>
+            Встановити довжину рядка
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Set-length.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="length">Вказана довжина</param>
+            <param name="charSet">Символ добавлення довжини</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Set the line length
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Set-length.cs"/></remarks>
+                <param name="str">The current line</param>
+                <param name="length">The specified length</param>
+                <param name="charSet">Add length symbol</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.GetSubstring(System.String@,System.String,System.Int32,System.Int32)">
+            <summary>
+            Отримати підрядок з рядка
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Get-substring.cs"/></remarks>
+            <param name="substr">Поточний підрядок</param>
+            <param name="str">Поточний рядок</param>
+            <param name="index">Початковий індекс</param>
+            <param name="lenght">Довжина підстроки. Якщо length = 0, тоді зчитування символів з str буде відбуватися до кінця</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a substring from a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Get-substring.cs"/></remarks>
+                <param name="substr">Current substring</param>
+                <param name="str">The current line</param>
+                <param name="index">Initial index</param>
+                <param name="lenght">Substring length. If length = 0, then characters from str will be read to the end</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.GetSubstring(System.String@,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Отримати підрядок з рядка
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Get-substring.cs"/></remarks>
+            <param name="substr">Поточний підрядок</param>
+            <param name="str">Поточний рядок</param>
+            <param name="primaryStr">Початковий підрядок</param>
+            <param name="finalStr">Кінцевий підрядок</param>
+            <param name="austerityPrimaryStr">Добавити початковий підрядок</param>
+            <param name="austerityFinalStr">Добавити кінцевий підрядок</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get a substring from a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Get-substring.cs"/></remarks>
+                <param name="substr">Current substring</param>
+                <param name="str">The current line</param>
+                <param name="primaryStr">Initial substring</param>
+                <param name="finalStr">Final substring</param>
+                <param name="austerityPrimaryStr">Add an initial substring</param>
+                <param name="austerityFinalStr">Add a trailing line</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.GetSubstrings(System.Collections.Generic.List{System.String}@,System.String,System.String)">
+            <summary>
+            Отримати підрядки з рядка
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Get-substrings.cs"/></remarks>
+            <param name="substrs">Поточний список підрядків</param>
+            <param name="str">Поточний рядок</param>
+            <param name="separator">Розподілювач</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get substrings from a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Get-substrings.cs"/></remarks>
+                <param name="substrs">Current list of substrings</param>
+                <param name="str">The current line</param>
+                <param name="separator">Distributor</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.GetSubstringIndices(System.Int32@,System.Int32@,System.String,System.String)">
+            <summary>
+            Отримати розташування підрядка в рядку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Get-substring-indices.cs"/></remarks>
+            <param name="startIndex">Індекс початку</param>
+            <param name="endIndex">Індекс кінця</param>
+            <param name="str">Рядок</param>
+            <param name="substr">Підрядок</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Get the position of a substring in a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Get-substring-indices.cs"/></remarks>
+                <param name="startIndex">Start index</param>
+                <param name="endIndex">End index</param>
+                <param name="str">String</param>
+                <param name="substr">Substring</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.IsEntry(System.String,System.String)">
+            <summary>
+            Перевірити на входження підрядка в рядку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+            <param name="str">Рядок</param>
+            <param name="substr">Підрядок</param>
+            <returns>true - підрядок входить в рядок, false - підрядок не входить</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check for occurrence of a substring in the line
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+                <param name="str">String</param>
+                <param name="substr">Substring</param>
+                <returns>true - the substring is included in the string, false - the substring is not included</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.IsEntry(System.String,System.Char)">
+            <summary>
+            Перевірити на входження символа в рядку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+            <param name="str">Рядок</param>
+            <param name="symbol">Символ</param>
+            <returns>true - символ входить в рядок, false - символ не входить</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check for occurrence of a character in a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+                <param name="str">String</param>
+                <param name="symbol">Symbol</param>
+                <returns>true - the character is included in the line, false - the character is not included</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.IsEntry(System.String,System.Int32)">
+            <summary>
+            Перевірити на входження індексу у рядок
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+            <param name="str">Рядок</param>
+            <param name="index">Індекс</param>
+            <returns>true - індекс входить у рядок, false - індекс не входить у рядок</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check for occurrence of the index in the string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+                <param name="str">String</param>
+                <param name="index">Index</param>
+                <returns>true - the index is included in the string, false - the index is not included in the string</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.IsEntry(System.String,System.String,System.Char)">
+            <summary>
+            Перевірити на наявність формату в рядку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+            <param name="str">Рядок</param>
+            <param name="format">Формат</param>
+            <param name="formatChar">Cимвол формату</param>
+            <returns>true - формат знайдено в рядку, false - формат не знайдено в рядку</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check for format in a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+                <param name="str">String</param>
+                <param name="format">String format</param>
+                <param name="formatChar">Symbol format</param>
+                <returns>true - the format is found in the string, false - the format is not found in the string</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.IsEntry(System.String,System.Collections.Generic.List{System.String},System.Boolean)">
+            <summary>
+            Перевірити на входження підрядків в рядок
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+            <param name="str">Рядок</param>
+            <param name="listSubstrs">Список підрядків</param>
+            <param name="austerityEntry">Чи кожне значення зі списку має бути у реченні</param>
+            <returns>true - підрядок входить в рядок, false - підрядок не входить</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check for occurrence of substrings in a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-entry.cs"/></remarks>
+                <param name="str">String</param>
+                <param name="listSubstrs">List of substrings</param>
+                <param name="austerityEntry">Whether every value from the list must be in a sentence</param>
+                <returns>true - the substring is included in the string, false - the substring is not included</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.IsEmpty(System.String,System.Boolean)">
+            <summary>
+            Перевірка на порожній рядок
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-empty.cs"/></remarks>
+            <param name="str">Рядок</param>
+            <param name="whiteSpace">Добавити перевіоку на рядок пробілів</param>
+            <returns>true - рядок порожній, false - рядок не порожній</returns>
+            
+            <translation xml:lang="en">
+                <summary>
+                Check for an empty string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Is-empty.cs"/></remarks>
+                <param name="str">String</param>
+                <param name="whiteSpace">Add a check for a string of spaces</param>
+                <returns>true - the line is empty, false - the line is not empty</returns>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.Remove(System.String@,System.Int32,System.Int32)">
+            <summary>
+            Видалити підрядок за вказаними індексами
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Remove.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="startIndex">Початковий індекс</param>
+            <param name="endIndex">Кінцевий індекс</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove the substring at the specified indexes
+                </summary>
+                <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Remove.cs"/></remarks>
+                <param name="str">The current string</param>
+                <param name="startIndex">Start index</param>
+                <param name="endIndex">End index</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.Remove(System.String@,System.String,System.Boolean)">
+            <summary>
+            Видалити вказаний підрядок
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Remove.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="substr">Підрядок для видалення</param>
+            <param name="austerity">Видалити всі знайдені підрядки видалення</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove the specified substring
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Remove.cs"/></remarks>
+                <param name="str">The current string</param>
+                <param name="substr">Substring to remove</param>
+                <param name="austerity">Delete all deletion substrings found</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.Remove(System.String@,System.Char,System.Boolean)">
+            <summary>
+            Видалити вказаний символ
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Remove.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="symbol">Символ для видалення</param>
+            <param name="austerity">Видалити усі найдені символи видалення</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Remove the specified symbol
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Remove.cs"/></remarks>
+                <param name="str">The current string</param>
+                <param name="symbol">Symbol to remove</param>
+                <param name="austerity">Remove all delete symbols found</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.Replace(System.String@,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Замінити список підрядків в рядку <para>Відповідність між списками значень, для їх заміни - паралельна</para>
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Replace.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="listReplaceStr">Список підрядків для заміни</param>
+            <param name="listNewStr">Список нових підрядків</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Replace the list of substrings in the line <para>Correspondence between lists of values, to replace them - parallel</para>
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Replace.cs"/></remarks>
+                <param name="str">The current string</param>
+                <param name="listReplaceStr">List of substrings to replace</param>
+                <param name="listNewStr">List of new substrings</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.Replace(System.String@,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
+            <summary>
+            Замінити список підрядків у рядку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Replace.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="listReplaceActions">Список дій для заміни <para>replaceStr - підрядок, який необхідно замінити. newStr - новий підрядок</para></param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Replace the list of substrings in a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Replace.cs"/></remarks>
+                <param name="str">The current string</param>
+                <param name="listReplaceActions">List of actions to replace <para>replaceStr - the substring to be replaced. newStr - new substring</para></param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.Replace(System.String@,System.String,System.String)">
+            <summary>
+            Замінити підрядок в рядку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Replace.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="replaceStr">Підрядок, який необхідно замінити</param>
+            <param name="newStr">Новий підрядок</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Replace the substring in the string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Replace.cs"/></remarks>
+                <param name="str">The current string</param>
+                <param name="replaceStr">The substring to replace</param>
+                <param name="newStr">New substring</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.Replace(System.String@,System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            Замінити список підрядків в рядку
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Replace.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="listReplaceStr">Список підрядків для заміни</param>
+            <param name="newStr">Новий підрядок</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Replace the list of substrings in a string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Replace.cs"/></remarks>
+                <param name="str">The current string</param>
+                <param name="listReplaceStr">List of substrings to replace</param>
+                <param name="newStr">New substring</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.PutFormat(System.String@,System.String,System.Char)">
+            <summary>
+            Поставити рядок у формат
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Put-format.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="format">Формат рядка</param>
+            <param name="formatChar">Спеціальний символ формату</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Put the string in the format
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Put-format.cs"/></remarks>
+                <param name="str">The current line</param>
+                <param name="format">String format</param>
+                <param name="formatChar">Special format symbol</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.PutOutFormat(System.String@,System.String,System.Char)">
+            <summary>
+            Забрати формат з рядка
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Put-out-format.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            <param name="format">Формат рядка</param>
+            <param name="formatChar">Спеціальний символ формату</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Put out the format from the line
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Put-out-format.cs"/></remarks>
+                <param name="str">The current line</param>
+                <param name="format">String format</param>
+                <param name="formatChar">Special format symbol</param>
+            </translation>
+        </member>
+        <member name="M:MyLibraries.MySystemLib.Classes.MyString.Flip(System.String@)">
+            <summary>
+            Перевернути рядок
+            </summary>
+            <remarks>Приклад: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Flip.cs"/></remarks>
+            <param name="str">Поточний рядок</param>
+            
+            <translation xml:lang="en">
+                <summary>
+                Flip the string
+                </summary>
+                <remarks>Example: <seealso href="https://raw.githubusercontent.com/blackByteGT/MyLibraries.MySystemLib.Net/main/Examples/MyString/Flip.cs"/></remarks>
+                <param name="str">Current the string</param>
+            </translation>
+        </member>
+    </members>
+</doc>

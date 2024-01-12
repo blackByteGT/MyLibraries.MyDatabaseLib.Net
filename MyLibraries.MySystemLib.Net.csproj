@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0;net48;netcoreapp3.1</TargetFrameworks>
+    <ApplicationIcon />
+    <Win32Resource />
+    <NeutralLanguage></NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Vladislav Rak</Authors>
+    <Product>MySystemLib</Product>
+    <Version>24.12.1.24</Version>
+    <Description>A library for working with system types</Description>
+    <PackageProjectUrl>https://github.com/blackByteGT/MyLibraries.MySystemLib.Net</PackageProjectUrl>
+    <PackageTags>Custom library for .NET</PackageTags>
+    <PackageReleaseNotes>An example of using functions in their description</PackageReleaseNotes>
+    <PackageIcon>MyLibLogo.png</PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Поточні проекти\Класи\MyLibraries.MySystemLib.Net\MyLibraries.MySystemLib.Net.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\vladi\Downloads\MyLibLogo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
