@@ -18,12 +18,12 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\Поточні проекти\Класи\MyLibraries.MySystemLib.Net\MyLibraries.MySystemLib.Net.xml</DocumentationFile>
+    <DocumentationFile>MyLibraries.MySystemLib.Net.xml</DocumentationFile>
     <Optimize>true</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\vladi\Downloads\MyLibLogo.png">
+    <None Include="">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
